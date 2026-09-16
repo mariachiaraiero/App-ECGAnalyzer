@@ -29,10 +29,12 @@ Esplora le principali caratteristiche della nostra interfaccia clinica interatti
 
 ### 4. Diagnosi Paziente e Filtri Intelligenti
 ![Riquadro laterale con Diagnosi Paziente e classi estratte](images/03_diagnosi.png)
+
 *Estrazione automatica dei metadati e del referto testuale (Statements). Se il sistema rileva patologie specifiche (es. Fibrillazione Atriale - `NO_P`), adatta dinamicamente l'output sopprimendo la ricerca dell'onda P.*
 
 ### 5. Analisi del Tracciato Continuo (10s)
 ![Tracciato a 10 secondi con segmentazione continua](images/03_continuous_trace.png)
+
 *Tutto il tracciato viene segmentato battito per battito, rivelando la stabilità spaziale e temporale della predizione lungo l'intero asse dei 10 secondi.*
 
 ### 6. Battito Mediano e Separazione Clinica (ST/T)
