@@ -17,14 +17,17 @@ Esplora le principali caratteristiche della nostra interfaccia clinica interatti
 
 ### 1. Dashboard e Visione d'Insieme
 ![Dashboard principale dell'app](images/01_dashboard.png)
+
 *La schermata principale offre una visione completa e pulita di tutte le 12 derivazioni, affiancando i referti automatici ai grafici ad alta risoluzione.*
 
 ### 2. Caricamento del File (GE XML & WFDB)
 ![Area di caricamento per file XML e WFDB](images/01_caricamento.png)
+
 *Supporto multi-formato: trascina direttamente i tuoi file clinici XML (come quelli esportati dalle macchine GE MAC2000) o i classici formati MIT-BIH (WFDB `.dat` e `.hea`).*
 
 ### 3. Selezione Derivazione e Controllo Picchi
 ![Menu a tendina per la selezione della derivazione e checkbox per la visualizzazione dei picchi](images/02_controlli.png)
+
 *Un'interfaccia focalizzata: scegli quale derivazione analizzare nel dettaglio e decidi con un clic se sovrapporre le etichette dei picchi (P, Q, R, S, T, J) sulle predizioni della rete.*
 
 ### 4. Diagnosi Paziente e Filtri Intelligenti
@@ -39,14 +42,17 @@ Esplora le principali caratteristiche della nostra interfaccia clinica interatti
 
 ### 6. Battito Mediano e Separazione Clinica (ST/T)
 ![Dettaglio del battito mediano con maschere P, QRS, ST, T e picchi](images/02_median_beat.png)
+
 *Confronto diretto tra Ground Truth e Predizione sul battito mediano. L'Ensemble Fisiologico distingue separatamente il QRS, il tratto isoelettrico ST (giallo) e l'onda T (verde), superando i limiti delle annotazioni automatiche classiche.*
 
 ### 7. Scelta del Modello (Ensemble vs Baseline)
 ![Menu a tendina per la scelta del modello predittivo](images/04_selezione_modello.png)
+
 *Analizza lo stesso battito con reti neurali diverse: passa dall'Ensemble Clinico alle varie reti Baseline e osserva l'effetto della Knowledge Distillation.*
 
 ### 8. Filtro Self-Template (LOO Correlation)
 ![Slider per la regolazione della soglia di correlazione LOO](images/05_soglia_loo.png)
+
 *Affidabilità prima di tutto: imposta la soglia di correlazione per il filtro LOO (Leave-One-Out). I battiti fortemente anomali, ectopici o mascherati da artefatti vengono automaticamente esclusi dal calcolo continuo.*
 
 ---
